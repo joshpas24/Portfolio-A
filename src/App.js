@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import headshot from './headshot.png'
 
 function App() {
   return (
     <div className="relative h-screen">
+      <video className='absolute min-w-full min-h-full' autoplay loop muted playsInline>
+        <source src={} type="video/mp4">
+          
+        </source>
+      </video>
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
         <div className="rounded-3xl p-10 bg-black/45 flex flex-col md:flex-row items-center gap-8">
           <div className="rounded-full h-48 w-48">
