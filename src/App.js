@@ -1,13 +1,12 @@
 import React from "react";
 import headshot from './headshot.png'
+import background from './space-background.mp4'
 
 function App() {
   return (
     <div className="relative h-screen">
-      <video className='absolute min-w-full min-h-full' autoplay loop muted playsInline>
-        <source src={} type="video/mp4">
-          
-        </source>
+      <video className='absolute top-0 object-cover h-full w-full' autoPlay controlsList="nodownload nofullscreen noremoteplayback" loop muted playsInline preload="auto">
+        <source src={background} type="video/mp4" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
         <div className="rounded-3xl p-10 bg-black/45 flex flex-col md:flex-row items-center gap-8">
