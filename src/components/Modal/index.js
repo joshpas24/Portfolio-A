@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Dialog, Transition } from '@headlessui/react'
 import { useModal } from "../../context/modal";
 import About from "../About";
+import Skills from "../Skills";
 
 export default function Modal() {
     const { showModal, setShowModal, modalContent, setModalContent } = useModal();
@@ -34,6 +35,7 @@ export default function Modal() {
                         </Dialog.Title>
 
                         {modalContent === 'About' && <About />}
+                        {modalContent === 'Skills' && <Skills />}
                     </div>
                 </div>
             </Dialog>
