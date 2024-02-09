@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.503b6b57.css",
+    "main.js": "/static/js/main.56ad8ea9.js",
+    "static/js/592.6d7de513.chunk.js": "/static/js/592.6d7de513.chunk.js",
+    "static/media/ocean.mp4": "/static/media/ocean.dd476ccc83543f7822fe.mp4",
+    "static/media/space.mp4": "/static/media/space.0e53680d355c59d974bc.mp4",
+    "static/media/forest.mp4": "/static/media/forest.eb93f716d779a6745c60.mp4",
+    "static/media/clonebnb.gif": "/static/media/clonebnb.cd0602e849f40fd4a32a.gif",
+    "static/media/vancoubereats.gif": "/static/media/vancoubereats.59f38815c13aedbb524c.gif",
+    "static/media/webuul.gif": "/static/media/webuul.91e1617d8387d3c32eea.gif",
+    "static/media/headshot.png": "/static/media/headshot.82222f3ff46ba96b5ebd.png",
+    "static/media/nodejs.png": "/static/media/nodejs.aa8bc616bb8252fa29f3.png",
+    "static/media/aws.png": "/static/media/aws.5ceeed1c98e83746fe94.png",
+    "static/media/flask.png": "/static/media/flask.7f090c9fb67742a01b54.png",
+    "static/media/csulb-logo.png": "/static/media/csulb-logo.22a3a4753c65953b899d.png",
+    "static/media/postgresql.png": "/static/media/postgresql.a7fa39912c91e079e90b.png",
+    "static/media/react.png": "/static/media/react.7fc1ee8dcf2d6567f645.png",
+    "static/media/appacademy-logo.png": "/static/media/appacademy-logo.f5ad940cacd5845463f0.png",
+    "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/python.webp": "/static/media/python.7a9da81b5ea6a4550127.webp",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/express.png": "/static/media/express.e3d4f9e5c8b469e45838.png",
+    "static/media/css.webp": "/static/media/css.b51af03507cb89d8771c.webp",
+    "static/media/redux.svg": "/static/media/redux.59f428ebf1c8b3a3fcec9ee28b57c9da.svg",
+    "index.html": "/index.html",
+    "main.503b6b57.css.map": "/static/css/main.503b6b57.css.map",
+    "main.56ad8ea9.js.map": "/static/js/main.56ad8ea9.js.map",
+    "592.6d7de513.chunk.js.map": "/static/js/592.6d7de513.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503b6b57.css",
+    "static/js/main.56ad8ea9.js"
+  ]
+}
