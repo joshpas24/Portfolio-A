@@ -13,6 +13,6 @@ export default function VideoBackground({ background }) {
     }, [background])
 
     return (
-        <video className='absolute top-0 object-cover h-full w-full' autoPlay controlsList="nodownload nofullscreen noremoteplayback" loop muted playsInline preload="auto" src={theme} type="video/mp4" />
+        <video className='absolute top-0 object-cover h-full w-full -z-10' autoPlay controlsList="nodownload nofullscreen noremoteplayback" loop muted playsInline preload="auto" src={theme} type="video/mp4" />
     )
 }
