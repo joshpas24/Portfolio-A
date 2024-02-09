@@ -3,6 +3,8 @@ import { Dialog, Transition } from '@headlessui/react'
 import { useModal } from "../../context/modal";
 import About from "../About";
 import Skills from "../Skills";
+import Projects from "../Projects";
+import Contact from "../Contact";
 
 export default function Modal() {
     const { showModal, setShowModal, modalContent, setModalContent } = useModal();
@@ -30,12 +32,16 @@ export default function Modal() {
                             </button>
                         </div>
 
-                        <Dialog.Title className="text-3xl font-bold text-white mb-10">
+                        <Dialog.Title className="text-2xl md:text-3xl font-bold text-white mb-10">
                             {modalContent}
                         </Dialog.Title>
 
-                        {modalContent === 'About' && <About />}
-                        {modalContent === 'Skills' && <Skills />}
+                        <div className="overflow-y-auto max-h-[80vh]">
+                            {modalContent === 'About' && <About />}
+                            {modalContent === 'Skills' && <Skills />}
+                            {modalContent === 'Projects' && <Projects />}
+                            {modalContent === 'Contact' && <Contact />}
+                        </div>
                     </div>
                 </div>
             </Dialog>

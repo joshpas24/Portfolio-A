@@ -18,102 +18,102 @@ export default function Skills() {
 
     return (
         <div className="flex flex-wrap gap-8 justify-center">
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={aws} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">AWS S3</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={css} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">CSS</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={express} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">Express</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={flask} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">Flask</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={html} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">HTML</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={js} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">JavaScript</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={nodejs} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">Node.js</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={npm} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">npm</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={postgresql} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">PostgreSQL</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={python} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">Python</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={react} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">React</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={redux} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">Redux</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={sqlalchemy} className="w-full object-cover" />
                 </div>
                 <h3 className="text-sm md:text-lg text-white text-center">SQLAlchemy</h3>
             </div>
 
-            <div className="grid grid-rows-[4fr, 1fr] gap-3">
-                <div className="w-14 md:h-28 md:w-28 flex items-center">
+            <div className="grid grid-rows-[4fr, 1fr] gap-3 justify-items-center">
+                <div className="w-14 h-14 md:h-28 md:w-28 flex items-center">
                     <img src={tailwind} className="w-full object-cover" />
                 </div>
-                <h3 className="text-sm md:text-lg text-white text-center">Tailwind CSS</h3>
+                <h3 className="text-sm md:text-lg text-white text-center">Tailwind</h3>
             </div>
         </div>
     )
