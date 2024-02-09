@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react";
-import { Transition } from "@headlessui/react";
+import { Transition , Menu} from "@headlessui/react";
 import headshot from './headshot.png'
 import VideoBackground from "./components/VideoBackground";
 import { useModal } from "./context/modal";
@@ -28,19 +28,36 @@ function App() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
         >
-        <div className={`${showModal && "hidden"} absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center md:gap-10`}>
+        <div className={`${showModal && "hidden"} absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center gap-4 md:gap-10`}>
+          {/* Mobile Nav */}
+          <div className="md:hidden grid grid-cols-4 w-full gap-1 px-1 mb-2 bg-black/65 rounded-lg mx-1">
+              <button onClick={() => handleModal("About")} className="w-full text-center py-3 text-lg rounded-lg text-white active:bg-gray-500/65">
+                About
+              </button>
+              <button onClick={() => handleModal("Projects")} className="text-center py-3 text-lg rounded-lg text-white active:bg-gray-500/65">
+                Projects
+              </button>
+              <button onClick={() => handleModal("Skills")} className="text-center py-3 text-lg rounded-lg text-white active:bg-gray-500/65">
+                Skills
+              </button>
+              <button onClick={() => handleModal("Contact")} className="text-center py-3 text-lg rounded-lg text-white active:bg-gray-500/65">
+                Contact
+              </button>
+          </div>
+          {/* Desktop Background */}
           <div className="hidden md:flex gap-6">
-            <button onClick={() => setBackground('space')} className="p-3 w-16 h-16 text-2xl bg-black/45 rounded-full text-white flex items-center justify-center hover:bg-gray-500/65">
+            <button onClick={() => setBackground('space')} className={`p-3 w-16 h-16 text-2xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "space" ? "text-amber-400" : "text-white"}`}>
               <i class="fa-solid fa-star"></i>
             </button>
-            <button onClick={() => setBackground('forest')} className="p-3 w-16 h-16 text-2xl bg-black/45 rounded-full text-white flex items-center justify-center hover:bg-gray-500/65">
+            <button onClick={() => setBackground('forest')} className={`p-3 w-16 h-16 text-2xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "forest" ? "text-green-900" : "text-white"}`}>
               <i class="fa-solid fa-tree"></i>
             </button>
-            <button onClick={() => setBackground('ocean')} className="p-3 w-16 h-16 text-2xl bg-black/45 rounded-full text-white flex items-center justify-center hover:bg-gray-500/65">
+            <button onClick={() => setBackground('ocean')} className={`p-3 w-16 h-16 text-2xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "ocean" ? "text-orange-600" : "text-white"}`}>
               <i class="fa-solid fa-fish"></i>
             </button>
           </div>
-          <div className="rounded-3xl p-10 bg-black/45 flex flex-col md:flex-row items-center gap-8">
+          {/* Main */}
+          <div className="rounded-3xl p-10 w-full md:w-fit bg-black/65 flex flex-col md:flex-row items-center gap-8">
             <div className="rounded-full h-48 w-48">
               <img src={headshot} className="object-cover rounded-full"/>
             </div>
@@ -65,24 +82,32 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="">
-            <div className="hidden md:grid grid-cols-4 w-full gap-5">
-                <button onClick={() => handleModal("About")} className="bg-black/45 py-3 px-8 w-full text-2xl rounded-lg text-white hover:bg-gray-500/65">
-                  About
-                </button>
-                <button onClick={() => handleModal("Projects")} className="bg-black/45 text-2xl rounded-lg text-white hover:bg-gray-500/65">
-                  Projects
-                </button>
-                <button onClick={() => handleModal("Skills")} className="bg-black/45 text-2xl rounded-lg text-white hover:bg-gray-500/65">
-                  Skills
-                </button>
-                <button onClick={() => handleModal("Contact")} className="bg-black/45 text-2xl rounded-lg text-white hover:bg-gray-500/65">
-                  Contact
-                </button>
-            </div>
-            <div>
-
-            </div>
+          {/* Desktop Nav */}
+          <div className="hidden md:grid grid-cols-4 gap-5">
+              <button onClick={() => handleModal("About")} className="bg-black/65 py-3 px-8 w-full text-2xl rounded-lg text-white hover:bg-gray-500/65">
+                About
+              </button>
+              <button onClick={() => handleModal("Projects")} className="bg-black/65 text-2xl rounded-lg text-white hover:bg-gray-500/65">
+                Projects
+              </button>
+              <button onClick={() => handleModal("Skills")} className="bg-black/65 text-2xl rounded-lg text-white hover:bg-gray-500/65">
+                Skills
+              </button>
+              <button onClick={() => handleModal("Contact")} className="bg-black/65 text-2xl rounded-lg text-white hover:bg-gray-500/65">
+                Contact
+              </button>
+          </div>
+          {/* Mobile Background */}
+          <div className="md:hidden flex gap-6">
+            <button onClick={() => setBackground('space')} className={`p-3 w-12 h-12 text-xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "space" ? "text-amber-400" : "text-white"}`}>
+              <i class="fa-solid fa-star"></i>
+            </button>
+            <button onClick={() => setBackground('forest')} className={`p-3 w-12 h-12 text-xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "forest" ? "text-green-900" : "text-white"}`}>
+              <i class="fa-solid fa-tree"></i>
+            </button>
+            <button onClick={() => setBackground('ocean')} className={`p-3 w-12 h-12 text-xl bg-black/65 rounded-full flex items-center justify-center hover:bg-gray-500/65 ${background === "ocean" ? "text-orange-600" : "text-white"}`}>
+              <i class="fa-solid fa-fish"></i>
+            </button>
           </div>
         </div>
       </Transition>
