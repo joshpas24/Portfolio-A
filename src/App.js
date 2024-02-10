@@ -110,7 +110,7 @@ function App() {
             </button>
           </div>
           {/* Copyright */}
-          <p className="fixed bottom-10 text-white text-sm tracking-widest">© 2024 JOSH PASCUAL | <a href="https://github.com/joshpas24/portfolio" target="_blank" className="hover:underline active:underline tracking-widest">GITHUB REPO</a></p>
+          <p className="md:absolute md:bottom-10 text-white text-sm tracking-widest">© 2024 JOSH PASCUAL | <a href="https://github.com/joshpas24/portfolio" target="_blank" className="hover:underline active:underline tracking-widest">GITHUB REPO</a></p>
         </div>
       </Transition>
 
