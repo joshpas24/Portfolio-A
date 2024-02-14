@@ -30,5 +30,3 @@ To run this project locally, follow these steps:
 
 - Vercel
 
-## Check it Out
-
