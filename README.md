@@ -2,6 +2,8 @@
 
 This is my personal portfolio website, showcasing my projects and skills. It is built using React.js, Tailwind CSS, and Headless UI.
 
+Live: https://www.joshpascual.dev/
+
 ## Features
 
 - Responsive design for various screen sizes and user preferences
