@@ -32,4 +32,3 @@ To run this project locally, follow these steps:
 
 ## Check it Out
 
-https://www.joshpascual.dev/
