@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is my personal portfolio website, showcasing my projects and skills. It is built using React.js, Tailwind CSS, and Headless UI.
+This is my personal portfolio website that I built with scratch using React.js, Tailwind CSS, and Headless UI. Background videos and logo were sourced by and designed on Canva.
 
 Live: https://www.joshpascual.dev/
 
