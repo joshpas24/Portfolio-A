@@ -4,13 +4,6 @@ This is my personal portfolio website, showcasing my projects and skills. It is 
 
 Live: https://www.joshpascual.dev/
 
-## Features
-
-- Responsive design for various screen sizes and user preferences
-- Showcase of projects with descriptions and links
-- Detailed skills section
-- Contact form for reaching out
-
 ## Technologies Used
 
 - React.js
@@ -21,8 +14,8 @@ Live: https://www.joshpascual.dev/
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
-2. Navigate to the project directory: `cd your-project`
+1. Clone the repository: `git clone https://github.com/joshpas24/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
