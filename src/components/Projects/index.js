@@ -9,6 +9,17 @@ export default function Projects() {
     return (
         <div className="flex flex-col gap-8 items-cente">
             <div className="flex flex-col md:px-10 mb-6">
+                {/* <img src={webuul} alt="Webuul" className="pb-2"/> */}
+                <div className="px-4 my-4 text-white">
+                    <div className="flex gap-3 text-lg md:text-2xl items-end pb-2">
+                        <a href="https://orderoneat.org/" target="_blank" className="hover:text-blue-500 hover:underline">eat! | Food Access LA</a>
+                    </div>
+                    <p className="text-sm md:text-base">
+                        Web application built for Food Access LA, a non-profit that oversees several farmers' markets in the Los Angeles Metropolitan area.
+                    </p>
+                </div>
+            </div>
+            <div className="flex flex-col md:px-10 mb-6">
                 <img src={webuul} alt="Webuul" className="pb-2"/>
                 <div className="px-4 my-4 text-white">
                     <div className="flex gap-3 text-lg md:text-2xl items-end pb-2">
